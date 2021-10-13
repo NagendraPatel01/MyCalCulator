@@ -44,6 +44,16 @@ public class MainActivity extends AppCompatActivity {
         equalto=findViewById(R.id.equalto);
 
 
+       /* clear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                text1.setText("");
+                output.setText("");
+            }
+        });
+
+*/
         clear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
